@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    
+    <title>Audio book reader</title>
+    <script defer src='https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js'></script>
+    <script defer src="index.js"></script>
+
+
+
+</head>
+<body>
+    <h1>Audio book reader</h1>
+
+    <div class="container-explanation">
+        <h2 class="h2">Explicacion</h2>    
+        <ol class="ol">
+            <li>1. Enfoca en el recuadro un texto</li>
+            <li>2. Ya tienes el texto enfocado en la camara? </li>
+            <li>3. Ahora presiona la tecla espacio y espera la magia</li>
+        </ol>
+    </div>
+
+    <video class="video" width="500" height="500" autoplay muted></video>
+    <pre  class="textoreader"
+            data-text 
+            style="font-size: 1.2rem;
+            font-family: inherit;
+            width: 90%;
+            white-space: pre-wrap;
+            "></pre>
+
+</body>
+</html>
