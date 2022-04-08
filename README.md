@@ -9,4 +9,4 @@ using SpeechSynthesisUtterance API for the computer to speak
 and using Tesseract API to read your screen
 and drawing with canvas
 
-https://xein-dev.github.io/AudioBookReader/
+https://Suarez-dev.github.io/AudioBookReader/
